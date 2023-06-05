@@ -1,0 +1,92 @@
+.home-container {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0rem 3rem;
+    flex-grow: 1;
+}
+
+.home-img-main {
+    position: relative;
+}
+.bg-img-main {
+    background-image: url('/src/assets/landing.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 32rem;
+    margin-top: 2rem;
+}
+
+.home-page-text {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.home-img-main .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: .5s ease;
+}
+
+.shop-now-btn {
+    width: fit-content;
+}
+
+.sub-head {
+    color: black;
+    font-weight: bold;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    .home-page-text {
+      padding: 1rem;
+      text-align: center;
+      font-size: 10px;
+     }
+  
+    .main-text {
+      font-size: 8px;
+      /* word-wrap: break-word; */
+      overflow-wrap: break-word;
+    }
+  
+    .product-btn {
+      margin-top: 1rem;
+    }
+  
+    .sub-head {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  
+    .category-grid-item {
+      margin-bottom: 2rem;
+    }
+  
+    .category-box {
+      padding: 1rem;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,122 @@
+.home-container {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0rem 3rem;
+    flex-grow: 1
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: xx-large;
+    color: black;
+}
+
+.main-subheading {
+    padding: 2rem;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+}
+  
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.product {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+  
+.productImage {
+    width: 6rem;
+    height: 6rem;
+}
+  
+.productImage img {
+    width: 90%;
+    height: 90%;
+}
+  
+.productDetail {
+    display: flex;
+    color: rgb(48, 44, 44);
+}
+  
+  .card-content2 {
+    margin-left: 3rem;
+  }
+  
+.buttons {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.change1 {
+   margin-left: 2em;
+}
+  
+.space-between {
+    width: 2em;
+    height: 2rem;
+}
+  
+.delete {
+    display: block;
+}
+  
+.seperator {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(98, 84, 84);
+}
+  
+.total{
+      margin-left: 6rem;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: rgb(53, 52, 52);;
+}
+  
+.deleteIcon{
+      display: none;
+}
+
+.total.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .checkout-btn {
+    margin-left: auto;
+  }
+  
+@media only screen and (min-width: 200px) and (max-width: 450px)  {
+      .shoppingCart{
+          padding: 4rem 3rem;
+      }
+      .cart{
+          padding: 2rem 0;
+      }
+      .delete{display: none;}
+      .deleteIcon{
+          display: block;
+      }
+      .space {
+          width: 0.5rem;
+          height: 1.5rem;
+        }
+        .productDetail{
+            display: block;
+        }
+  
+        .productImage {
+          width: 5.5rem;
+          height: 4.5rem;
+        }
+  
+}
